@@ -282,3 +282,105 @@ body, ul {
     font-size: 14px;
 }
     
+
+
+/* media query  */
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 5px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+ 
+    .haed-title {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .ban-banner {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .insta-post {
+        display: none;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .image-overlay1,
+    .image-overlay2 {
+        display: none;
+    }
+
+    .game-container {
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .footer-logo h1 {
+        font-size: 20px;
+    }
+}
+
+/* Media Query for Mobile Phones */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 5px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .follow-button {
+        display: none;
+    }
+
+    .haed-title {
+        margin: 20px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .sign-btn,
+    .rg-btn {
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .games {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer-logo h1 {
+        font-size: 20px;
+    }
+
+    .footer-links a {
+        font-size: 12px;
+    }
+
+    .footer-logos img {
+        max-width: 30px;
+    }
+
+    .footer-text {
+        font-size: 10px;
+    }
+}
