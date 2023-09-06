@@ -1,0 +1,284 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    
+ 
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff;
+    color: #181616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.G {
+    color: #ff42a5;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #0e0d0d;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: #00f;
+}
+
+/* Logo Styles */
+.logo img {
+    max-width: 100px;
+}
+
+/* Follow Us Button Styles */
+.follow-button button {
+    background-color: #ff42a5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.follow-button button img {
+    max-width: 20px;
+    margin-left: 10px;
+}
+
+/* Header Styles */
+.haed-title {
+    margin: 40px 40px 40px 90px;
+}
+
+.ban-intro {
+    margin: 40px 40px 40px 90px;
+}
+
+.sign-btn{
+    margin: 40px 40px 40px 90px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #ff42a5;
+
+}
+
+
+
+.rg-btn {
+    margin: 40px 40px 40px 90px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #4ec5f7;
+}
+
+.ban-banner {
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+.goat {
+    color: #cf4ec9;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/* Instagram Post Styles */
+.insta-post {
+    width: 20%;
+    margin-left: 200px;
+    display: flex;
+}
+
+.post-1,
+.post-2,
+.post-3,
+.post-4 {
+    margin: 10px 10px;
+}
+
+/* Card Styles */
+.card {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.hover-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.card:hover .hover-content {
+    opacity: 1;
+}
+
+.hover-icon {
+    margin-top: 10px;
+}
+
+.hover-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Image Overlay Styles */
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.image-overlay1 {
+    position: absolute;
+    bottom: -220px;
+    right: 180px;
+    width: 50%;
+    height: auto;
+}
+
+.image-overlay2 {
+    position: absolute;
+    bottom: -240px;
+    right: -120px;
+    width: 50%;
+    height: auto;
+}
+
+
+/* game-varaities */
+
+.game-varaities{
+    margin-top: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 25px 30px;
+}
+
+.game-container{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.games {
+    display: flex;
+    align-items: center;
+    border: solid transparent; 
+    border-width: 3px; 
+    padding: 5px;
+    transition: border-color 0.3s ease; 
+}
+
+.games:hover {
+    border-color: grey; 
+}
+
+/* footer  */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: auto;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-logo h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-logos img {
+    max-width: 40px;
+    margin: 10px;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+    
